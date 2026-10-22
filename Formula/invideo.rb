@@ -1,21 +1,21 @@
 class Invideo < Formula
   desc "Edit professional NLE timelines, color correct footage, mix audio, and generate images, video and audio."
   homepage "https://github.com/invideoio/cli"
-  version "0.1.0-rc.1"
+  version "0.1.0"
 
   on_macos do
-    url "https://github.com/invideoio/cli/releases/download/v0.1.0-rc.1/invideo-universal2-apple-darwin.tar.gz"
-    sha256 "523ae4fe6df1bdeaf25b0ec76f6c7144b533a8281e3025203ea882a9d6651853"
+    url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-universal2-apple-darwin.tar.gz"
+    sha256 "03f7bed5816459d2c53bf95c0c24e294059563f1783b4b1f0f8eac7f84a87dc5"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/invideoio/cli/releases/download/v0.1.0-rc.1/invideo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "39370476dcaffe9c363f4a248c7a0179598d0db79f374dd5e4403fded4e10c13"
+      url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "21cd13d34a9cc42c84ea282e8394dddf4aeb664d3b75524d6245b4388293be03"
     end
     on_arm do
-      url "https://github.com/invideoio/cli/releases/download/v0.1.0-rc.1/invideo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8b984e874ed34b54a414366e07ef8995aaafdd015a181360265caf5e53cd4c3c"
+      url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "80b136a4eb9561e074ec06cac756a1e40529c7fbed584fb46a657c6a6f9feb51"
     end
   end
 
