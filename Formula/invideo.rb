@@ -1,5 +1,5 @@
 class Invideo < Formula
-  desc "Your invideo account from the terminal"
+  desc "Edit professional NLE timelines, color correct footage, mix audio, and generate images, video and audio."
   homepage "https://github.com/invideoio/cli"
   version "0.1.0-rc.1"
 
