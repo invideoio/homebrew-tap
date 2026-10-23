@@ -5,17 +5,17 @@ class Invideo < Formula
 
   on_macos do
     url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-universal2-apple-darwin.tar.gz"
-    sha256 "03f7bed5816459d2c53bf95c0c24e294059563f1783b4b1f0f8eac7f84a87dc5"
+    sha256 "4adadd66b37ff3339a816799a99b2bd01b1a6b0bef0d9626426504697ca2a5f5"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "21cd13d34a9cc42c84ea282e8394dddf4aeb664d3b75524d6245b4388293be03"
+      sha256 "9f11ca21695f593b6f985401b98d4b89ab1f6cfcc708ea4578f0bb3b58bedfc5"
     end
     on_arm do
       url "https://github.com/invideoio/cli/releases/download/v0.1.0/invideo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "80b136a4eb9561e074ec06cac756a1e40529c7fbed584fb46a657c6a6f9feb51"
+      sha256 "d9012f3d5ac9ae9ee89e5ca680b2bc37b78ea0d2baac705cd6d256ec6f52b625"
     end
   end
 
