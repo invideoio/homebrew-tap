@@ -1,5 +1,5 @@
 class Invideo < Formula
-  desc "Edit professional NLE timelines, color correct footage, mix audio, and generate images, video and audio."
+  desc "Professional video editor and 250+ AI models, from the terminal"
   homepage "https://github.com/invideoio/cli"
   version "0.1.0"
 
