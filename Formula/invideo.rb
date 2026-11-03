@@ -1,21 +1,21 @@
 class Invideo < Formula
   desc "Professional video editor and 250+ AI models, from the terminal"
   homepage "https://github.com/invideoio/cli"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
-    url "https://github.com/invideoio/cli/releases/download/v0.1.2/invideo-universal2-apple-darwin.tar.gz"
-    sha256 "8c2c3963ff96b8b7fb77c4766a9cd71d41fa158b84e9ac911e386e96a1f5d3cf"
+    url "https://github.com/invideoio/cli/releases/download/v0.1.3/invideo-universal2-apple-darwin.tar.gz"
+    sha256 "ed16bd1c062059017bf541445c07997c682d2d99d8012bc48b6ef78e3337a4d2"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/invideoio/cli/releases/download/v0.1.2/invideo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3670f08444fc0f07d106ae5bfc875f1edbedc3a958a383c0338f007930d7f483"
+      url "https://github.com/invideoio/cli/releases/download/v0.1.3/invideo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8bd7bc284643d822796bf2e4a5d6a8bb9824bfa4d4d2621145ddba5332ce07d6"
     end
     on_arm do
-      url "https://github.com/invideoio/cli/releases/download/v0.1.2/invideo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "76ffb07980c46e323e7afc1b266c511448ceefcdfea0fe83c0db6ba991715680"
+      url "https://github.com/invideoio/cli/releases/download/v0.1.3/invideo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a12b483f2c74efe22fb355316159a8c2172f6325b006454fd38221244b6838ad"
     end
   end
 
